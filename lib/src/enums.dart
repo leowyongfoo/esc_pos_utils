@@ -37,6 +37,7 @@ class PaperSize {
   final int value;
   static const mm58 = PaperSize._internal(1);
   static const mm80 = PaperSize._internal(2);
+  static const mm35 = PaperSize._internal(3);
 
   int get width => value == PaperSize.mm58.value ? 372 : 558;
 }
